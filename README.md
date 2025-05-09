@@ -18,10 +18,15 @@ We assure you that the product does not violate user privacy and is in no way in
 Users are advised to consider this carefully before using the product. <br>
 
 
-## Contributing
+## Contributing 
 
 
 ## Usage
+## Build the automated program
+```
+chmod +x scripts/start.sh
+./scripts/start.sh
+```
 
 
 ## References

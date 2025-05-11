@@ -13,13 +13,31 @@ chmod +x scripts/grant.sh
 
 # Activate the virtual environment
 echo "scripts/start.sh: Executing..."
-#./scripts/venv.sh
+./scripts/venv.sh
 
 
-# Exec the main script
-echo "scripts/start.sh: Executing ..."
-./scripts/start-web.sh
-
-
-echo "scripts/start.sh: Executing ..."
-#./scripts/start-req.sh
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -h|--help)
+            echo "Address: $0"
+            echo "[-h|--help]"
+            echo "[-w|--web]"
+            echo "[-r|--req]"
+            exit 0
+            ;;
+        -w|--web)
+            echo "scripts/start.sh: Executing ..."
+            ./scripts/start-web.sh
+            shift
+            ;;
+        -r|--req)
+            echo "scripts/start.sh: Executing ..."
+            ./scripts/start-req.sh
+            shift
+            ;;
+        *)
+            echo "Unknown option: $1"
+            exit 1
+            ;;
+    esac
+done

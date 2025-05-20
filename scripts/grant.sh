@@ -17,4 +17,6 @@ chmod +x scripts/load-resrcs.sh
 
 chmod +x scripts/close-resrcs.sh
 
+chmod +x scripts/cleanup.sh
 chmod +x scripts/shutdown.sh
+

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "scripts/start-web.sh: Executing..."
+echo "[scripts/start-web.sh]        Executing..."
 
 
 cd webapp/

@@ -1,12 +1,20 @@
 #!/bin/bash
 
 
-echo "scripts/grant.sh: Executing..."
+echo "[scripts/grant.sh]            Executing..."
 
 
 
 
 # Execute the script in the current directory
-chmod +x scripts/venv.sh
+chmod +x scripts/start.sh
+
+chmod +X scripts/start-sys.sh
 chmod +x scripts/start-web.sh
 chmod +x scripts/start-req.sh
+
+chmod +x scripts/load-resrcs.sh
+
+chmod +x scripts/close-resrcs.sh
+
+chmod +x scripts/shutdown.sh

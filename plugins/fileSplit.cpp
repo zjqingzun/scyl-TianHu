@@ -28,6 +28,7 @@ void __fileSplit(const std::string& _inputFilename) {
             }
             output.write(_buffer, bytesRead);
             output.close();
+            std::cout << "[SUCCESS]                     ";
             std::cout << "Successfully created  " << _outputFilename << " (" << bytesRead << " bytes)\n";
             ++_partNumber;
         }
@@ -35,6 +36,7 @@ void __fileSplit(const std::string& _inputFilename) {
 
     delete[] _buffer;
     _input.close();
+    std::cout << "[SUCCESS]                     ";
     std::cout << "File splitting completed.\n";
 }
 

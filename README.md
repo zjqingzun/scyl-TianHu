@@ -24,8 +24,8 @@ Users are advised to consider this carefully before using the product. <br>
 ## Usage
 ## Build the automated program
 ```
-chmod +x scripts/start.sh
-./scripts/start.sh
+chmod +x boot.sh
+./scripts/boot.sh
 ```
 
 

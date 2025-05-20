@@ -25,11 +25,13 @@ void __fileJoin(const std::string& _baseFilename, const std::string& _outputFile
         }
 
         _output << input.rdbuf();
+        std::cout << "[LOADING]                     ";
         std::cout << "File merge successful: " << partFilename << "\n";
         ++_partNumber;
     }
 
     _output.close();
+    std::cout << "[SUCCESS]                     ";
     std::cout << "File has been successfully created: " << _outputFilename << "\n";
 }
 

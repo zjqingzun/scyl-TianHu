@@ -28,7 +28,7 @@ void __fileSplit(const std::string& _inputFilename) {
             }
             output.write(_buffer, bytesRead);
             output.close();
-            std::cout << "[SUCCESS]                     ";
+            std::cout << "[LOADING]                     ";
             std::cout << "Successfully created  " << _outputFilename << " (" << bytesRead << " bytes)\n";
             ++_partNumber;
         }

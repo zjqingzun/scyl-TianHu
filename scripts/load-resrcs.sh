@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "[scripts/load-resrcs.sh]      Executing..."
+echo "[scripts/load-resrcs.sh]      Starting loading resources..."
 
 
 # Execute the script in the current directory

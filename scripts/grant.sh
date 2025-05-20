@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "[scripts/grant.sh]            Executing..."
+echo "[scripts/grant.sh]            Granting ..."
 
 
 

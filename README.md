@@ -22,7 +22,7 @@ Users are advised to consider this carefully before using the product. <br>
 
 
 ## Usage
-## Build the automated program
+### Build the automated program
 ```
 chmod +x boot.sh
 ./scripts/boot.sh

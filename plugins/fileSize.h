@@ -4,6 +4,9 @@
 #include <vector>
 #include <filesystem>
 
+#include "log.h"
+
+
 namespace fs = std::filesystem;
 
 

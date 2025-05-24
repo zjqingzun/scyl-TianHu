@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "[scripts/close-resrcs.sh]     Closing resources..."
+echo "[scripts/root/close-resrcs.sh]     Closing resources..."
 
 
 # Execute the script in the current directory

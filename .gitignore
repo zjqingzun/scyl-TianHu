@@ -1,2 +1,4 @@
 *bin
-#*cache
+*cache
+
+__pycache__

@@ -1,0 +1,14 @@
+[package]
+name = "calcul-module"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "calcul_module"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"

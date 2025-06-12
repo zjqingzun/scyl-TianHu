@@ -25,7 +25,7 @@ chmod +x scripts/root/shutdown.sh
 chmod +x scripts/feature/module-req.sh
 
 chmod +x scripts/feature/syscall/mdle-searchgg.sh
-
+chmod +x scripts/feature/syscall/mdle-ggearth.sh
 
 
 echo "$(date '+%Y-%m-%d %H:%M:%S')       [root]                     Successfully granted permissions to the scripts." >> logs/root.log

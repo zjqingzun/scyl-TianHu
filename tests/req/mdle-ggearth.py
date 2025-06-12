@@ -16,9 +16,14 @@ if __name__ == "__main__":
     parser.add_argument("-ht", "--height", type=int, default=600, help="Height of the plot")
 
     args = parser.parse_args()
+    country = ""
 
-    country = input("Enter the country name (or leave blank for all countries): ").strip()
-    args.title = country if country else args.title
+    if input("Do you want to use the default country? (y/n): ").strip().lower() == 'n':
+        country = input("Enter the country name (default is Japan): ").strip() or "Japan"
+        args.title = country
+    else:
+        country = args.title
+
     # Example data
     data = {
         "country": [country],

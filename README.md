@@ -1,6 +1,6 @@
 # 天狐
-<p align="center">
-  <img src="resources/public/logo.webp" alt="TianHu" width="300">
+<p align="left">
+  <img src="resources/public/app-cir16.ico" alt="TianHu" width="300">
 </p>
 
 

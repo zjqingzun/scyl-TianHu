@@ -1,2 +1,6 @@
 google
 plotly
+
+pyinstaller
+pywin32
+winshell

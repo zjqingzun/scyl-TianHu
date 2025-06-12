@@ -3,3 +3,4 @@ uvicorn
 pydantic
 requests
 flask
+PyQt6

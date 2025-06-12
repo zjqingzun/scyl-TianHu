@@ -24,6 +24,9 @@ echo "$(date '+%Y-%m-%d %H:%M:%S')       [root]                     Starting the
 
 while [[ $# -gt 0 ]]; do
     case $1 in
+        -0)
+            shift
+            ;;
         -s|--system)
             ./scripts/root/start.sh -s
             shift
